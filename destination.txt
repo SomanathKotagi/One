@@ -1,1 +1,2 @@
-Hello
+Hello world
+This is a new line.append the operation as a string

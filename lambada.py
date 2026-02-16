@@ -46,6 +46,7 @@ print(list(map(lambda x:x*3,val)))
 print(val[4])
 
 
+
 val_filter=[1,2,3,4,88,6,45,1,25]
 print("Using filter",val_filter)
 print(list(filter(lambda val_fil:val_fil%2==0,val_filter)))
@@ -55,3 +56,9 @@ students=[("Somanath",23),("Pratik",45),("Snehal",24),("Prajwal",46)]
 sorted_students=sorted(students,key=lambda x:x[1])
 
 print(sorted_students)
+
+str_numbers=['1','2','3','4','5']
+int_numbers=list(map(int,str_numbers))
+
+print(type(int_numbers))
+print(type(int_numbers[2]))
